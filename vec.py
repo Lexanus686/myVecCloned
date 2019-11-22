@@ -16,3 +16,6 @@ class Vec:
 
     def __add__(self, other):
         return self.values + other.values
+
+    def __sub__(self, other):
+        return self.values - other.values
